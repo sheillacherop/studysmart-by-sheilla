@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: #3a1f35;
+  color: white;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #E80C99;
+}
+
+/* Day tabs */
+.day-tabs {
+  margin-top: 10px;
+}
+
+.day-btn {
+  background: #5D3754;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 4px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.day-btn.active {
+  background: #E80C99;
+}
+
+/* Main card */
+.planner-card {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #5D3754;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* Time blocks */
+.time-block {
+  background: #6f445f;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.time-block h3 {
+  margin-top: 0;
+  color: #E80C99;
+}
+
+/* Stickers */
+.tasks, .books {
+  margin-top: 20px;
+}
+
+.sticker {
+  background: #E80C99;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  min-height: 40px;
+}
+
+/* Utility */
+.hidden {
+  display: none;
+}
+
+[contenteditable="true"]:focus {
+  outline: none;
+  background: #7a4b68;
+}
+.back-home {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  background: #5D3754;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.back-home:hover {
+  background: #E80C99;
+}
