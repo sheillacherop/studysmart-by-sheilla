@@ -1,0 +1,80 @@
+/* Import Playfair Display from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: #fdfdc9; /* Lemon soft background */
+  margin: 0;
+  text-align: center;
+}
+
+/* Header / Hero */
+.hero {
+  background: linear-gradient(135deg, #EC5E27, #c8a2c8); /* Sky + Wisteria mix */
+  color: white;
+  padding: 80px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero .subtext {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+/* Button */
+.btn {
+  background: white;
+  color: #EC5E27; /* matches sky/orange for contrast */
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 25px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #EC5E27;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* How it works section */
+.how-it-works {
+  margin: 50px auto;
+  max-width: 700px;
+  text-align: left;
+  color: #4b4b4b; /* subtle text color for readability */
+}
+
+.how-it-works ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.how-it-works li {
+  margin: 12px 0;
+  font-size: 18px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.how-it-works li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #EC5E27; /* matches accent */
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  color: #4b4b4b;
+}
