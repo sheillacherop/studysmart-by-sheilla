@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Planner | StudySmart</title>
+  <link rel="stylesheet" href="planner.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-home">← Back to Home</a>
+  <h1>Weekly Study Planner</h1>
+
+  <div class="day-tabs">
+    <button class="day-btn active" data-day="monday">Mon</button>
+    <button class="day-btn" data-day="tuesday">Tue</button>
+    <button class="day-btn" data-day="wednesday">Wed</button>
+    <button class="day-btn" data-day="thursday">Thu</button>
+    <button class="day-btn" data-day="friday">Fri</button>
+  </div>
+</header>
+
+<main class="planner-card">
+
+  <!-- DAY CONTENT -->
+  <section class="day" id="monday">
+    <div class="time-block" contenteditable="true">
+      <h3>Morning</h3>
+      <p>Study focus…</p>
+    </div>
+
+    <div class="time-block" contenteditable="true">
+      <h3>Afternoon</h3>
+      <p>Study focus…</p>
+    </div>
+
+    <div class="time-block" contenteditable="true">
+      <h3>Evening</h3>
+      <p>Study focus…</p>
+    </div>
+
+    <div class="time-block" contenteditable="true">
+      <h3>Night</h3>
+      <p>Study focus…</p>
+    </div>
+  </section>
+
+  <!-- SAME STRUCTURE FOR OTHER DAYS -->
+  <section class="day hidden" id="tuesday">
+  <div class="time-block" contenteditable="true">
+    <h3>Morning</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Afternoon</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Evening</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Night</h3>
+    <p>Study focus…</p>
+  </div>
+</section>
+
+<section class="day hidden" id="wednesday">
+  <div class="time-block" contenteditable="true">
+    <h3>Morning</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Afternoon</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Evening</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Night</h3>
+    <p>Study focus…</p>
+  </div>
+</section>
+
+  <section class="day hidden" id="thursday">
+  <div class="time-block" contenteditable="true">
+    <h3>Morning</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Afternoon</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Evening</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Night</h3>
+    <p>Study focus…</p>
+  </div>
+</section>
+
+  <section class="day hidden" id="friday">
+  <div class="time-block" contenteditable="true">
+    <h3>Morning</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Afternoon</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Evening</h3>
+    <p>Study focus…</p>
+  </div>
+
+  <div class="time-block" contenteditable="true">
+    <h3>Night</h3>
+    <p>Study focus…</p>
+  </div>
+</section>
+
+
+  <!-- EXTRA TASKS -->
+  <section class="tasks">
+    <h2>Extra Tasks</h2>
+    <div contenteditable="true" class="sticker">Add tasks here…</div>
+  </section>
+
+  <!-- BOOK REFERENCES -->
+  <section class="books">
+    <h2>Book References</h2>
+    <div contenteditable="true" class="sticker">Book • Topic • Page</div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
